@@ -1,6 +1,12 @@
 React is a JavaScript library for building user interfaces.
 
-Inside ReactSettings.js in /node_modules/react/lib, you will find a setting for enabling strict propTypes by default.
+Inside ReactSettings.js in /node_modules/react/lib, you will find a setting for enabling strict propTypes by default:
+
+```javascript
+module.exports = {
+  defaultStrictPropTypes: true
+};
+```
 
 This setting can be overrided on a per component bases by adding the strictPropTypes static variable to your react component classes:
 
